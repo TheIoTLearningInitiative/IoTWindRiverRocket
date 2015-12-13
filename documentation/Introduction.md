@@ -3,7 +3,7 @@
 - [Wind River® Rocket™ Homepage](http://windriver.com/products/operating-systems/rocket/)
 - [Wind River® Rocket™ Platforms Supported](https://software.intel.com/sites/default/files/managed/8d/f0/PLATFORM_SUPPORT.pdf)
 - [Wind River® Rocket™ Github](https://github.com/wind-river-rocket)
-https://software.intel.com/sites/default/files/managed/8a/6a/APPLICATION_DEV_PRIMER.pdf
+- [Wind River® Rocket™ ](https://software.intel.com/sites/default/files/managed/8a/6a/APPLICATION_DEV_PRIMER.pdf)
 
 ## outdir/zephyr.elf
 
