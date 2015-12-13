@@ -1,6 +1,7 @@
 # Introduction
 
 https://github.com/wind-river-rocket
+https://software.intel.com/sites/default/files/managed/8a/6a/APPLICATION_DEV_PRIMER.pdf
 
 ## outdir/zephyr.elf
 
