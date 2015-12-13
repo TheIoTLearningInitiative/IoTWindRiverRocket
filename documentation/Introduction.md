@@ -202,63 +202,63 @@
     *
     * Compile and Link Features
     *
-The kernel binary name (KERNEL_BIN_NAME) [zephyr] (NEW) 
-Custom linker scripts provided (HAVE_CUSTOM_LINKER_SCRIPT) [N/y/?] (NEW) 
-Cross-compiler tool prefix (CROSS_COMPILE) [] (NEW) 
-Task-aware debugging with GDB (GDB_INFO) [N/y/?] (NEW) 
-Allow linking with --whole-archive (LINK_WHOLE_ARCHIVE) [N/y/?] (NEW) 
-Custom compiler options (COMPILER_OPT) [-O0 -g] -O0 -g
-Cross-compiler variant name (TOOLCHAIN_VARIANT) [] (NEW) 
-C Library
-> 1. Build minimal c library (MINIMAL_LIBC) (NEW)
-  2. Build with newlib c library (NEWLIB_LIBC) (NEW)
-choice[1-2]: Build additional libc functions [EXPERIMENTAL] (MINIMAL_LIBC_EXTENDED) [N/y/?] (NEW) 
-*
-* Debugging Options
-*
-Build kernel with debugging enabled (DEBUG) [N/y/?] (NEW) 
-Send printk() to console (PRINTK) [Y/n/?] (NEW) 
-Send stdout to console (STDOUT_CONSOLE) [Y/n/?] y
-Send stdout at the earliest stage possible (EARLY_CONSOLE) [N/y/?] (NEW) 
-Enable __ASSERT() macro (ASSERT) [N/y/?] (NEW) 
-Enable system debugging information (DEBUG_INFO) [Y/?] (NEW) y
-Enable GDB Server [EXPERIMENTAL] (GDB_SERVER) [Y/n/?] y
-  Maximum number of GDB Server Software breakpoints (GDB_SERVER_MAX_SW_BP) [100] (NEW) 
-  Enable GDB interrupt mode (GDB_SERVER_INTERRUPT_DRIVEN) [Y/n/?] (NEW) 
-  Enable the bootloader mode (GDB_SERVER_BOOTLOADER) [N/y/?] (NEW) 
-*
-* Safe memory access
-*
-Enable safe memory access (MEM_SAFE) [Y/?] (NEW) y
-  Safe memory access implementation
-  > 1. Software validation of memory access within memory regions (MEM_SAFE_CHECK_BOUNDARIES) (NEW)
-  choice[1]: 1
-Number of safe memory access regions that can be added at runtime (MEM_SAFE_NUM_EXTRA_REGIONS) [0] (NEW) 
-Boot using Linux kexec() system call (BOOTLOADER_KEXEC) [N/y/?] (NEW) 
-Generic boot loader support (BOOTLOADER_UNKNOWN) [Y/?] (NEW) y
-*
-* System Monitoring Options
-*
-Enable performance metrics [EXPERIMENTAL] (PERFORMANCE_METRICS) [N/y/?] (NEW) 
-Reboot functionalities (REBOOT) [Y/?] (NEW) y
-#
-# configuration written to .config
-#
-make[1]: Entering directory '/users/xe1gyq/MyHelloWorld/zephyr'
-make[2]: Entering directory '/users/xe1gyq/MyHelloWorld/outdir'
-  GEN     ./Makefile
-scripts/kconfig/conf --silentoldconfig Kconfig
-  Using /users/xe1gyq/MyHelloWorld/zephyr as source for kernel
-  GEN     ./Makefile
-  CHK     include/generated/version.h
-  UPD     include/generated/version.h
-  HOSTCC  scripts/gen_idt/gen_idt.o
-  HOSTLD  scripts/gen_idt/gen_idt
-  CHK     misc/generated/configs.c
-  UPD     misc/generated/configs.c
-  CHK     include/generated/offsets.h
-  UPD     include/generated/offsets.h
-  CHK     misc/generated/sysgen/prj.mdef
+    The kernel binary name (KERNEL_BIN_NAME) [zephyr] (NEW) 
+    Custom linker scripts provided (HAVE_CUSTOM_LINKER_SCRIPT) [N/y/?] (NEW) 
+    Cross-compiler tool prefix (CROSS_COMPILE) [] (NEW) 
+    Task-aware debugging with GDB (GDB_INFO) [N/y/?] (NEW) 
+    Allow linking with --whole-archive (LINK_WHOLE_ARCHIVE) [N/y/?] (NEW) 
+    Custom compiler options (COMPILER_OPT) [-O0 -g] -O0 -g
+    Cross-compiler variant name (TOOLCHAIN_VARIANT) [] (NEW) 
+    C Library
+    > 1. Build minimal c library (MINIMAL_LIBC) (NEW)
+      2. Build with newlib c library (NEWLIB_LIBC) (NEW)
+    choice[1-2]: Build additional libc functions [EXPERIMENTAL] (MINIMAL_LIBC_EXTENDED) [N/y/?] (NEW) 
+    *
+    * Debugging Options
+    *
+    Build kernel with debugging enabled (DEBUG) [N/y/?] (NEW) 
+    Send printk() to console (PRINTK) [Y/n/?] (NEW) 
+    Send stdout to console (STDOUT_CONSOLE) [Y/n/?] y
+    Send stdout at the earliest stage possible (EARLY_CONSOLE) [N/y/?] (NEW) 
+    Enable __ASSERT() macro (ASSERT) [N/y/?] (NEW) 
+    Enable system debugging information (DEBUG_INFO) [Y/?] (NEW) y
+    Enable GDB Server [EXPERIMENTAL] (GDB_SERVER) [Y/n/?] y
+      Maximum number of GDB Server Software breakpoints (GDB_SERVER_MAX_SW_BP) [100] (NEW) 
+      Enable GDB interrupt mode (GDB_SERVER_INTERRUPT_DRIVEN) [Y/n/?] (NEW) 
+      Enable the bootloader mode (GDB_SERVER_BOOTLOADER) [N/y/?] (NEW) 
+    *
+    * Safe memory access
+    *
+    Enable safe memory access (MEM_SAFE) [Y/?] (NEW) y
+      Safe memory access implementation
+      > 1. Software validation of memory access within memory regions (MEM_SAFE_CHECK_BOUNDARIES) (NEW)
+      choice[1]: 1
+    Number of safe memory access regions that can be added at runtime (MEM_SAFE_NUM_EXTRA_REGIONS) [0] (NEW) 
+    Boot using Linux kexec() system call (BOOTLOADER_KEXEC) [N/y/?] (NEW) 
+    Generic boot loader support (BOOTLOADER_UNKNOWN) [Y/?] (NEW) y
+    *
+    * System Monitoring Options
+    *
+    Enable performance metrics [EXPERIMENTAL] (PERFORMANCE_METRICS) [N/y/?] (NEW) 
+    Reboot functionalities (REBOOT) [Y/?] (NEW) y
+    #
+    # configuration written to .config
+    #
+    make[1]: Entering directory '/users/xe1gyq/MyHelloWorld/zephyr'
+    make[2]: Entering directory '/users/xe1gyq/MyHelloWorld/outdir'
+      GEN     ./Makefile
+    scripts/kconfig/conf --silentoldconfig Kconfig
+      Using /users/xe1gyq/MyHelloWorld/zephyr as source for kernel
+      GEN     ./Makefile
+      CHK     include/generated/version.h
+      UPD     include/generated/version.h
+      HOSTCC  scripts/gen_idt/gen_idt.o
+      HOSTLD  scripts/gen_idt/gen_idt
+      CHK     misc/generated/configs.c
+      UPD     misc/generated/configs.c
+      CHK     include/generated/offsets.h
+      UPD     include/generated/offsets.h
+      CHK     misc/generated/sysgen/prj.mdef
   UPD     misc/generated/sysgen/prj.mdef
   LD      lib/libc/minimal/source/stdlib/built-in.o
   CC      lib/libc/minimal/source/stdout/fprintf.o
