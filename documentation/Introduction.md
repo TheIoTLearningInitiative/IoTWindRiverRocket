@@ -365,3 +365,45 @@
     Starting application...  done
     Application is now running
 
+Temp
+
+    make
+    * Zephyr Kernel/x86 Configuration
+    * General Kernel Options
+    * Security Options
+    * Nanokernel Options
+    * Microkernel Options
+    * Timer API Options
+    * X86 Platform Configuration options
+    * Platform Capabilities
+    * Processor Capabilities
+    * Floating Point Options
+    * x86 Core Options
+    * Memory Layout Options
+    * Device Drivers
+    * Console drivers
+    * Serial Drivers
+    * Interrupt Controllers
+    * Timer Drivers
+    * Random Generation Configuration
+    * PCI Settings
+    * GPIO Drivers
+    * SPI hardware bus support
+    * I2C Drivers
+    * PWM (Pulse Width Modulation) Drivers
+    * Enable platform pinmux driver
+    * ADC drivers
+    * Cryptography
+    * Compile and Link Features
+    * Debugging Options
+    * Safe memory access
+    * System Monitoring Options
+    # configuration written to .config
+    Using /users/xe1gyq/MyHelloWorld/zephyr as source for kernel
+      SYSMAP  System.map
+    make[2]: Leaving directory '/users/xe1gyq/MyHelloWorld/outdir'
+    make[1]: Leaving directory '/users/xe1gyq/MyHelloWorld/zephyr'
+    Loading /users/xe1gyq/MyHelloWorld//outdir/zephyr.elf on target...  done
+    Starting application...  done
+    Application is now running
+
