@@ -4,6 +4,7 @@ IoT Wind River Rocket
 > Support for other IA platforms such as Edison, Curie, etc.as well as support for ARM support is planned
 
 - [Wind River® Rocket™ Homepage](http://windriver.com/products/operating-systems/rocket/)
+- [Wind River® Rocket™ Intel](https://software.intel.com/en-us/iot/rocket)
 - [Wind River® Rocket™ Platforms Supported](https://software.intel.com/sites/default/files/managed/8d/f0/PLATFORM_SUPPORT.pdf)
 - [Wind River® Rocket™ Github](https://github.com/wind-river-rocket)
 - https://app.cloud.windriver.com/#/home
