@@ -375,7 +375,7 @@ IoT Wind River Rocket
     Starting application...  done
     Application is now running
 
-## Complete Log outdir/zephyr.elf 
+## Partial Log outdir/zephyr.elf 
 
     make
     * Zephyr Kernel/x86 Configuration
