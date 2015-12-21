@@ -10,6 +10,7 @@ IoT Wind River Rocket
 - https://app.cloud.windriver.com/#/home
 - [Wind River® Rocket™ Application Development Primer](https://software.intel.com/sites/default/files/managed/8a/6a/APPLICATION_DEV_PRIMER.pdf)
 - [Wind River® Rocket™ Developer Zone](https://communities.intel.com/community/tech/rocket/)
+- [Wind River® Rocket™ ](https://software.intel.com/en-us/iot/documentation?field_os_tid[]=81488&value=81488)
 
 ## Complete Log outdir/zephyr.elf 
 
