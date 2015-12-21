@@ -10,7 +10,7 @@ IoT Wind River Rocket
 - [Wind River® Rocket™ Application Development Primer](https://software.intel.com/sites/default/files/managed/8a/6a/APPLICATION_DEV_PRIMER.pdf)
 - [Wind River® Rocket™ Developer Zone](https://communities.intel.com/community/tech/rocket/)
 
-## outdir/zephyr.elf
+## Complete Log outdir/zephyr.elf 
 
     make
     Using /users/xe1gyq/MyHelloWorld/zephyr/arch/x86/configs/basic_minuteia_defconfig as base
@@ -375,7 +375,7 @@ IoT Wind River Rocket
     Starting application...  done
     Application is now running
 
-Temp
+## Complete Log outdir/zephyr.elf 
 
     make
     * Zephyr Kernel/x86 Configuration
