@@ -3,6 +3,6 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
-* Supported Platforms
+* [Supported Platforms](SupportedPlatforms.md)
 * Getting Started
 
