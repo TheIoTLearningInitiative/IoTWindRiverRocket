@@ -17,6 +17,7 @@ IoT Wind River Rocket
 
 ## Complete Log outdir/zephyr.elf 
 
+```sh
     make
     Using /users/xe1gyq/MyHelloWorld/zephyr/arch/x86/configs/basic_minuteia_defconfig as base
     Merging /users/xe1gyq/MyHelloWorld/zephyr/kernel/configs/micro.config
@@ -421,4 +422,4 @@ IoT Wind River Rocket
     Loading /users/xe1gyq/MyHelloWorld//outdir/zephyr.elf on target...  done
     Starting application...  done
     Application is now running
-
+```
