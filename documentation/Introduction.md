@@ -18,6 +18,15 @@ IoT Wind River Rocket
 - [Wind River® Rocket™ Developer Zone](https://communities.intel.com/community/tech/rocket/)
 - [Wind River® Rocket™ Getting Started Guides, Documents, Samples and More!](https://software.intel.com/en-us/iot/documentation?field_os_tid[]=81488&value=81488)
 
+## Documentation Features
+
+- Getting Started
+- Embedded OS
+- Developing application
+- Hardware
+- Developer Zone
+- Customers
+
 ## Complete Log outdir/zephyr.elf 
 
 ```sh
