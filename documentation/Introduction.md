@@ -1,6 +1,10 @@
 IoT Wind River Rocket
 ==
 
+> Help your Internet of Things (IoT) projects take off with Wind River® Rocket™, a free embedded operating system specifically designed to quickly and easily build small, intelligent devices.
+
+> Projects with Rocket are dramatically simplified by our new cloud-based development environment, Wind River Helix™ App Cloud. Find out more at the Rocket Developer Zone.
+
 > Support for other IA platforms such as Edison, Curie, etc.as well as support for ARM support is planned
 
 - [Wind River® Rocket™ Homepage](http://windriver.com/products/operating-systems/rocket/)
