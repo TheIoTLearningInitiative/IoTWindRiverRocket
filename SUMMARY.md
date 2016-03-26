@@ -2,5 +2,5 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
-   * Terminology
+   * [Terminology](documentation/Terminology.md)
 
